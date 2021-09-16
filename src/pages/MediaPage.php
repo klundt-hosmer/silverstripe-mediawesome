@@ -124,7 +124,7 @@ class MediaPage extends \Page {
 				'LinkID ASC'
 			);
 			$attributes = $attributes->execute();
-			if(count($attributes)) {
+            if($attributes && $attributes->numRecords()) {
 
 				// With the results from above, delete these to prevent data integrity issues.
 
