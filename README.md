@@ -1,3 +1,19 @@
+# Using this branch
+
+This repository is not in packagist, so to use it instead of the original silverstripe-mediawsome project, update  `composer.json` like this:
+```
+"require": {
+   "nglasl/silverstripe-mediawesome": "dev-bugfix-kh",
+},
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/klundt-hosmer/silverstripe-mediawesome"
+        }
+    ],
+```
+
+
 # [mediawesome](https://packagist.org/packages/nglasl/silverstripe-mediawesome)
 
 _The current release is **4.0.6**_
